@@ -22,7 +22,7 @@ body {
 #navbar {
     overflow: hidden;
     width: 100%;
-    background-color: rgba(165, 42, 42, 0.7);
+    background-color: rgba(139, 69, 19, 0.7);
     z-index: 1;
     text-align: center;
     height: 50px;

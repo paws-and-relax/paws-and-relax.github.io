@@ -1,10 +1,20 @@
 body {
     background-color: #fff8f2;
     font-family='Papyrus';
-    margin: 60px auto;
+    margin: 0;
     width: 80%;
+}
+
+#navbar {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+    height: 50px;
 }
 
 h1 {
     text-align: center;
+    color: #a04100;
 }

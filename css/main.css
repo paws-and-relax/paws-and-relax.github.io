@@ -3,8 +3,8 @@ body {
     font-family:'Papyrus';
     font-size: 100%;
     font-weight: bolder;
+    width: 100%;
     margin: 0;
-    opacity: 1;
 }
 
 /* Style header */
@@ -22,7 +22,7 @@ body {
 #navbar {
     overflow: hidden;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(210, 105, 30, 0.7);
     z-index: 1;
     text-align: center;
     height: 50px;

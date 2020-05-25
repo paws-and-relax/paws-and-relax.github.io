@@ -1,8 +1,10 @@
 body {
     background-color: #fff8f2;
-    font-family='Papyrus';
+    font-family:'Papyrus';
+    font-size: 100%;
+    font-weight: bolder;
     margin: 0;
-    width: 80%;
+    opacity: 1;
 }
 
 /* Style header */
@@ -34,5 +36,18 @@ body {
     padding-right: 23px;
     text-decoration: none;
     color: #fff;
+}
 
+#navbar a:hover {
+    background-color: rgba(500, 400, 300, 0.6);
+}
+
+footer {
+    color: #1b1f23;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 18px;
 }

@@ -5,6 +5,18 @@ body {
     width: 80%;
 }
 
+/* Style header */
+.header {
+    color: #a04100;
+}
+.header a{
+    color: #a04100;
+    text-decoration: none;
+}
+.header h1 {
+    text-align: center;
+}
+
 #navbar {
     overflow: hidden;
     width: 100%;
@@ -14,7 +26,13 @@ body {
     height: 50px;
 }
 
-h1 {
-    text-align: center;
-    color: #a04100;
+#navbar a {
+    display: inline-block;
+    height: 50px;
+    padding-top: 12.5px;
+    padding-left: 23px;
+    padding-right: 23px;
+    text-decoration: none;
+    color: #fff;
+
 }

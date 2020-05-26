@@ -38,6 +38,7 @@ body {
 #navbar a {
     display: inline-block;
     height: 50px;
+    padding-top:12.5px;
     padding-left: 23px;
     padding-right: 23px;
     text-decoration: none;

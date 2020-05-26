@@ -45,10 +45,6 @@ body {
     color: #fff;
 }
 
-#navbar h3 {
-    text-align: center;
-}
-
 #navbar a:hover {
     background-color: rgba(500, 400, 300, 0.6);
 }

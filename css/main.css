@@ -25,6 +25,11 @@ body {
     right:10px;
 }
 
+.topcorner linkedIn_logo {
+    top: 30px;
+    right: 50px;
+}
+
 #navbar {
     overflow: hidden;
     width: 100%;

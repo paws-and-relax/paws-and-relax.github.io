@@ -15,7 +15,11 @@ body {
     color: #a04100;
     text-decoration: none;
 }
-
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
 .header h1 {
     text-align: center;
 }

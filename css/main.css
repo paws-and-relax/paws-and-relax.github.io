@@ -20,14 +20,12 @@ body {
 }
 
 .topcorner {
-    display: block;
+    display: inline-block;
     position: absolute;
-    padding: 5px;
     top:10px;
     right:10px;
 }
 .topcorner a{
-    color: #a04100;
     text-decoration:none;
 }
 

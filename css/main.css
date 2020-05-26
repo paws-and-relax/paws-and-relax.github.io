@@ -17,8 +17,8 @@ body {
 }
 .header img {
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
 }
 .header h1 {
     text-align: center;

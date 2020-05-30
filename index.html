@@ -1,19 +1,26 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <!-- icon at the webTab -->
         <link rel="shortcut icon" type="image/gif/png" href="/pictureFile/thB_logo.png">
         <title>Thanh Bui</title>
+        <!-- Use main.css and home.css pages 
+             for index.html-->
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/home.css">
     </head>
 
     <body>
+        <!-- Style Header with the name and logo
+             Make it clickable -->
         <div class="header"> 
             <a href="index.html">
                 <h1><img src="pictureFile/thB_logo.png" alt="logo" style="width:50px;height:50px"/>Thanh Bui</h1>
             </a>
         </div>
 
+        <!-- Contact/Social Media icons on the 
+             top right corner -->
         <div class="topcorner">
             <a style="text-decoration:none" href="https://www.linkedin.com/in/thbui/" target="_blank">
                 <img src="pictureFile/linkedin_logo.png" alt="linkedIn" style="width:35px;height:35px"/>
@@ -23,24 +30,35 @@
             </a>
          </div>
 
+        <!-- Navigation Bar -->
         <div id="navbar">
         <a href="index.html">Home</a>
         <a href="portfolio.html">My Portfolio</a>
         <a href="about.html">About Me</a>
     </div>
 
+    <!-- Typing Animation -->
+    <h1 style="color: #DA9D43; 
+                padding-top: 15px; 
+                text-align: center;" 
+        class="typewrite" data-period="2000" 
+        data-type='["Welcome to my page!",
+                    "Im Thanh :D", "I Love Design.", 
+                    "and I Love to Develop."]'>
+    </h1>
+
+    <!-- Hover on image to go to 
+         Portfolio.html -->
     <div class="content">
-        <div class="center">
-            <img src="pictureFile/sunRise.jpg">
-
-            <div class="textPosOnImg"> 
-                <p style="font-size: 50px; color: rgba(500, 400, 300, 0.6);">
-                    <i>"The best time of the day is when the sun is rising"</i>
-                </p>
-            </div> <br>
-
+        <img src="pictureFile/thB_design.png" class="image">
+        <div class="middle">
+            <div class="text">
+                <a href="portfolio.html">my portfolio</a>
+            </div>
         </div>
     </div>
+
+    
 
     <footer>
         <p> &COPY; Thanh T. Bui <br>
@@ -49,6 +67,9 @@
 
     </footer>
 
+    
+
+    <script src="js/typingAnimation.js"></script>
     </body>
 
 

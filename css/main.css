@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-:selection {
+::selection {
   color: #fff;
   background: #505050;
 }
